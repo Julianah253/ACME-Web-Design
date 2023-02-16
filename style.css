@@ -49,15 +49,97 @@ main
     flex-direction: column;
     text-align: center;
     background-image: url(purple.jpg);
-    object-fit: cover;
+    background-size: cover;
 }
 main h1
 {
     font-size: 60px;
     margin-bottom: 20px;
+    color: orangered
 }
 main p
 {
     padding-left: 60px;
     padding-right: 60px;
+    color: orangered;
+    font-weight: bold;
+}
+
+section
+{
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    background-color:  rgb(78, 76, 76);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+section p
+{
+    color: white;
+    font-size: 20px;
+}
+section input
+{
+    padding: 10px;
+    border: none;
+    border-radius: 5px
+}
+button
+{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white
+}
+
+aside
+{
+    width: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 350px
+
+}
+aside img
+{
+    height: 100px;
+    width: 100px;
+}
+.card
+{
+    height: 300px;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+aside h3
+{
+    margin: 20px;
+    text-align: center;
+}
+aside p
+{
+    text-align: center;
+    font-size: 12px;
+    font-weight: light;
+}
+
+footer
+{
+    width: auto;
+    height: 70px;
+    background-color: orangered;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
