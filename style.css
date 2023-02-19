@@ -21,6 +21,7 @@ nav
 {
     color: white;
     font-size: 33px;
+    cursor: pointer;
 }
 span
 {
@@ -63,6 +64,7 @@ main p
     padding-right: 60px;
     color: orangered;
     font-weight: bold;
+    font-size: 25px
 }
 
 section
@@ -72,7 +74,7 @@ section
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-color:  rgb(78, 76, 76);
     padding-left: 60px;
     padding-right: 60px;
@@ -94,22 +96,39 @@ button
     border: none;
     border-radius: 5px;
     background-color: orangered;
-    color: white
+    color: white;
+    cursor: pointer;
 }
+
 
 aside
 {
-    width: auto;
+    width: 80%;
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    height: 350px
-
+    justify-content: space-around;
+    height: 350px;
+    margin-left: 10%;
 }
 aside img
 {
     height: 100px;
     width: 100px;
+}
+aside .cardi img
+{
+    height: 110px;
+    width: 110px;
+}
+.cardi 
+{
+    height: 300px;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .card
 {
@@ -121,6 +140,21 @@ aside img
     justify-content: center;
     flex-direction: column;
 }
+.cardi p
+{
+    text-align: inherit;
+    font-size: 16px;
+    font-weight: light;
+    line-height: 19px;
+    padding: 20px;
+    width: 150%;
+    padding-top: 12px
+}
+.cardi h3
+{
+    margin-top: 21px;
+    text-align: center;
+}
 aside h3
 {
     margin: 20px;
@@ -129,8 +163,11 @@ aside h3
 aside p
 {
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: light;
+    line-height: 19px;
+    padding: 20px;
+    width: 150%;
 }
 
 footer
@@ -142,4 +179,31 @@ footer
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+#sidebar h3
+{
+    width: 80%;
+    height: 200px;
+}
+#sidebar h3
+{
+    margin-right: 20px;
+    text-align: inherit;
+    padding: 10px
+}
+aside p
+{
+    text-align: inherit;
+    font-size: 16px;
+    font-weight: light;
+    line-height: 19px;
+  
+}
+#main-col
+{
+    margin-left: 150px;
+    padding-top: 20px;
+    margin-right: 200px
 }
